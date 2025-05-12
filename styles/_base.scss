@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+body {
+    letter-spacing: -0.008em;
+    //background-color: #F9FAFB;
+    background: #f3f4f6;
+    color: #1F2937;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.headline-1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: #F4F6F8;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #D3D7DB;
+}

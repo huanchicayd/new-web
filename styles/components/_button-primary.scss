@@ -1,0 +1,138 @@
+.btn {
+    border: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 100%;
+    user-select: none;
+}
+
+.btn svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: #2b2b2b;
+}
+
+.btn-large {
+    height: 48px;
+    padding: 0 20px;
+}
+
+.btn-medium {
+    height: 42px;
+}
+
+.btn-small {
+    height: 36px;
+}
+
+.btn-xsmall {
+    height: 32px;
+}
+
+.bell {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    margin-left: 8px;
+    fill: #374151;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bell:hover {
+    background: #F3f4f5;
+}
+
+.bell svg {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-primary {
+    background: #1545DE;
+    color: #fff;
+}
+
+.btn-primary_large {
+    border-radius: 8px;
+}
+
+.btn-secondary {
+    background: #e7ecfd;
+    color: #1545DE;
+}
+
+.btn-tertiary {
+    border: 1px solid #D1D5DB;
+}
+
+.btn-tertiary:hover {
+    background: #F3f4f5;
+}
+
+.btn-tertiary_large {
+    border-radius: 8px;
+}
+
+.button-group--wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
+
+.btn-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1545DE;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+}
+
+.btn-fab svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.btn-icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+}
+
+.btn-icon_other {
+
+}
+
+.btn-icon_other:hover {
+    background: #e7ecfd;
+}
+
+.btn-icon_other svg {
+    fill: #1545DE;
+    margin: 0;
+}

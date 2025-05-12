@@ -1,0 +1,71 @@
+.table {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #E5E7EB;
+    
+}
+
+tr:last-child {
+    border-bottom: 0;
+}
+
+td {
+    border-left: 0;
+    border-right: 0;
+    padding: 8px 16px;
+    height: 56px;
+    /*color: #6B7280;*/
+}
+
+th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 8px 16px;
+    background-color: #f3f4f6;
+    font-weight: 700;
+    letter-spacing: -0.28px;
+    height: 52px;
+    border-right: 1px solid #e5e7eb;
+}
+
+th:last-child {
+    border: 0;
+}
+
+.table-function {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.table-search {
+    max-width: 400px;
+    width: 100%;
+}
+
+.table-cell_checkbox {
+    width: 0;
+}
+
+.table-cell_actions {
+    width: 64px;
+}
+
+.table-cell_performance-hoje {
+    width: 180px;
+}
+
+.table-cell_performance-periodo {
+    width: 200px;
+}

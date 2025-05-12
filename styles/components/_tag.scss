@@ -1,0 +1,39 @@
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.tag-large {
+    height: 32px;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+.tag-success {
+    background: #E6EEE4;
+    color: #3D9900;
+}
+
+.tag-success .tag-icon {
+    fill: #3D9900;
+}
+
+.tag-danger {
+    background: #FAE1E1;
+    color: #DA2323;
+}
+
+.tag .tag-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.tag-icon--right-space {
+    margin-right: 8px;
+}
+
+.tag-icon--hide {
+    display: none;
+}

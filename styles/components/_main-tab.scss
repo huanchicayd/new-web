@@ -1,0 +1,48 @@
+.main-tab {
+    background: #fff;
+    height: 44px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.main-tab_tabs {
+    padding: 0 24px;
+    height: 100%;
+    display: flex;
+}
+
+.main-tab_tabs-item {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 0 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+.main-tab_tabs-item svg {
+    fill: #6b7280;
+    margin-right: 8px;   
+}
+
+.main-tab_tabs-item:hover {
+    color: #1f2937;
+}
+
+.main-tab_tabs-item:hover svg {
+    fill: #1f2937;
+}
+
+.main-tab_tabs-item.active {
+    background: #e7ecfd;
+    font-weight: 600;
+    color: #1545de;
+    border-bottom: 2px solid #1545de;
+}
+
+.main-tab_tabs-item.active svg {
+    fill: #1545de;
+    margin-right: 8px;
+    
+}
