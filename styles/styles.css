@@ -195,6 +195,45 @@ body {
   margin: 0;
 }
 
+.input-group-wrap {
+  display: flex;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 48px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px;
+  order: 1;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: 0;
+  border: 1px solid #1545DE;
+  box-shadow: 0 0 0 3px #CED9FA;
+}
+
+.input:focus ~ label {
+  color: #1545DE;
+  order: 0;
+}
+
+.input::-moz-placeholder {
+  color: #D1D5DB;
+}
+
+.input::placeholder {
+  color: #D1D5DB;
+}
+
 .table {
   border: 1px solid #E5E7EB;
   border-radius: 12px;
@@ -587,6 +626,57 @@ nav a.active {
   fill: #374151;
 }
 
+.menu-search--wrap {
+  max-width: 480px;
+  width: 100%;
+}
+
+.menu-search_group {
+  position: relative;
+  display: flex;
+}
+
+.menu-search {
+  height: 40px;
+  width: 100%;
+  border-radius: 999px;
+  padding: 0 60px 0 16px;
+  background: #F3F4F6;
+  border: 1px solid transparent;
+}
+
+.menu-search:hover {
+  background-color: #E5E7EB;
+}
+
+.menu-search::-moz-placeholder {
+  color: #6b7280;
+}
+
+.menu-search::placeholder {
+  color: #6b7280;
+}
+
+.menu-search_btn {
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.menu-search_btn:hover svg {
+  fill: #1545DE;
+}
+
+.menu-search_btn svg {
+  margin: 0;
+}
+
 .menu-container {
   position: relative;
 }
@@ -857,59 +947,6 @@ nav a.active {
 
 .page-numbers {
   padding: 0 24px;
-}
-
-.input-group-wrap {
-  display: flex;
-}
-
-.input-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.input {
-  height: 48px;
-  border: 1px solid #d1d5db;
-  border-radius: 8px;
-  padding: 8px;
-  order: 1;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.input:focus {
-  outline: 0;
-  border: 1px solid #1545DE;
-  box-shadow: 0 0 0 3px #CED9FA;
-}
-
-.input:focus ~ label {
-  color: #1545DE;
-  order: 0;
-}
-
-.input::-moz-placeholder {
-  color: #D1D5DB;
-}
-
-.input::placeholder {
-  color: #D1D5DB;
-}
-
-.menu-search--wrap {
-  max-width: 480px;
-  width: 100%;
-}
-
-.menu-search {
-  height: 40px;
-  width: 100%;
-  border-radius: 999px;
-  padding: 0 16px;
-  background: #F3F4F6;
-  border: 1px solid transparent;
 }
 
 .card-group {

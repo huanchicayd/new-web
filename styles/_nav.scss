@@ -216,3 +216,54 @@ nav a.active {
     height: 20px;
     fill: #374151;
 }
+
+.menu-search--wrap {
+    max-width: 480px;
+    width: 100%;
+}
+
+.menu-search_group {
+    position: relative;
+    display: flex;
+}
+
+.menu-search {
+    height: 40px;
+    width: 100%;
+    border-radius: 999px;
+    padding: 0 calc(16px + 36px + 8px) 0 16px;
+    background: #F3F4F6;
+    border: 1px solid transparent;
+}
+
+.menu-search:hover {
+    background-color: #E5E7EB;
+}
+
+.menu-search::placeholder {
+    color: #6b7280;
+}
+
+.menu-search_btn {
+    position: absolute;
+    top: 2px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+}
+
+//.menu-search_btn:hover {
+  //  background: #fff;
+//}
+
+.menu-search_btn:hover svg {
+    fill: #1545DE;
+}
+
+.menu-search_btn svg {
+    margin: 0;
+}
